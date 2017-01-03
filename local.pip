@@ -1,9 +1,8 @@
 -e .
 
-cython>=0,<1
-https://bitbucket.org/denis/gevent/get/82f623ff862a.tar.gz
-ujson>=1.18,<2
+cython
+ujson>=1.18,<8
 
-nose>=1,<2
+nose>=1,<8
 rudolf
 bpython

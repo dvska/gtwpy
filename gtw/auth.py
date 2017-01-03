@@ -1,5 +1,6 @@
 from giftwrap import Auth as BaseAuth
 
+
 class Auth(BaseAuth):
     domain = 'api.citrixonline.com'
 
@@ -12,5 +13,4 @@ class Auth(BaseAuth):
         return 'G2W/rest/organizers/%s' % self.organized_key
 
     def _headers(self):
-        return {'Authorization': 'OAuth oauth_token=%s'%self.oauth_token}
-
+        return {'Authorization': 'OAuth oauth_token=%s' % self.oauth_token}
